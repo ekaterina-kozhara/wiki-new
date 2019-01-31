@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&subset=cyrillic');
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 18px 20px;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+
+nav a {
+  font-size: 14px;
+  text-decoration: none;
+
+  color: inherit;
+}
+
+nav a:last-of-type {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+nav a:first-of-type {
+  display: block;
+
+  width: 180px;
+  height: 16px;
+
+  background-image: url(../images/logo.svg);
+  background-size: cover;
+}
+
+main {
+  padding: 50px 0 100px 110px;
+}
+article.example {
+  position: relative;
+  text-align: left;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 46px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 23px;
+  line-height: 38px;
+}
+
+.example-text {
+  display: inline-block;
+  width: 580px;
+}
+
+img.pattern {
+  /* box-sizing: border-box; */
+  width: 210px;
+  height: 20px;
+  margin-top: 50px;
+  margin-left: -50px;
+}
+
+img.mockup1 {
+  /* box-sizing: border-box; */
+  position: absolute;
+  /* margin-right: -20px; */
+  /* ЖЕНЯ ПОЧЕМУ МАРДЖИН ТОП РАБОТАЕТ А РАЙГХТ - НЕТ??? */
+  margin-top: 60px;
+  width: 550px;
+}
