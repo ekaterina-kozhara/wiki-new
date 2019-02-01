@@ -110,14 +110,42 @@ img.mockup3 {
 .buttons {
   display: block;
   align-self: center;
+  margin-top: 100px;
+  padding: 0 60px;
+
+}
+
+.white {
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 30px;
+  background-color: white;
+  border-color: rgba(0,0,0,.2);
+}
+
+.green {
+  background-color: #64f364;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-image: linear-gradient(to bottom, #64F364 2%, #2BD42B 7%, #01A401 95%, #006900 100%);
+  border-color: #00C000;
+}
+
+a {
+  text-decoration: none;
 }
 
 a.white {
-  margin-right: 30px;
-  border-radius: 250px;
-  /* height: 40px; */
   font-size: 15px;
-  background-color: white;
-  border-color: rgba(0,0,0,.2);
-  /* color: rgba(0,0,0,.6); */
+  color: rgba(0,0,0,.6);
+  padding: 5px 25px;
+}
+
+a.green {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 25px;
 }
