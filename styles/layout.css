@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&subset=cyrillic');
 
+* {
+  transition: all .3s ease;
+}
+
 body {
   font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 nav {
+  background-color: white;
+  z-index: 10;
+  box-sizing: border-box;
   display: flex;
-  padding: 18px 20px;
+  width: 100%;
+  position: fixed;
+  padding: 20px 20px;
   justify-content: space-between;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
 }
 
 nav a {
+  box-sizing: border-box;
   font-size: 14px;
   text-decoration: none;
 
@@ -33,7 +45,7 @@ nav a:first-of-type {
 }
 
 main {
-  padding: 50px 50px 100px 110px;
+  padding: 100px 50px 0px 110px;
 }
 article.example {
   position: relative;
@@ -65,10 +77,8 @@ img.pattern {
 
 img.mockup1 {
   overflow-x: hidden;
-  /* box-sizing: border-box; */
   position: absolute;
-  /* margin-right: -20px; */
-  /* ЖЕНЯ ПОЧЕМУ МАРДЖИН ТОП РАБОТАЕТ А РАЙГХТ - НЕТ??? */
+  right: -55px;
   margin-top: 60px;
   width: 550px;
 }
@@ -103,6 +113,8 @@ img.mockup3 {
 }
 
 .learn-text {
+  align-self: center;
+  margin: 0 auto;
   margin-top: 200px;
   text-align: center;
 }
@@ -148,4 +160,89 @@ a.green {
   color: white;
   font-weight: bold;
   padding: 10px 25px;
+}
+
+p.footer {
+  text-align: center;
+  font-size: 16px;
+  margin: 150px 0 30px;
+
+}
+/* _________________________________________ */
+@media (min-width: 910px) {
+  img.mockup1 {
+    right: -150px;
+    width: 450px;
+    margin-top: 0px;
+    margin-top: -270px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .example-text, .responsive-text, .process-text, .learn-text {
+    width: 400px;
+  }
+
+  img.pattern {
+    display: block;
+    width: 147px;
+    height: 14px;
+    margin-top: 100px;
+    margin-left: -40px;
+  }
+
+  article.responsive h2 {
+    margin-top: 170px;
+  }
+
+  article.responsive {
+    display: flex;
+  }
+
+  img.mockup2 {
+    width: 380px;
+    margin-top: 178px;
+    left: 61px;
+    /* position: relative; */
+    margin-top: 210px;
+    height: 478px
+  }
+
+  .responsive-text {
+    position: absolute;
+    right: 20px;
+    top: 440px;
+  }
+
+  .responsive img.pattern {
+    margin-block-end: 2px;
+    position: absolute;
+    margin-top: 520px;
+    right: 30px;
+  }
+
+  .process-text h2 {
+    margin-top: 800px;
+  }
+
+  img.mockup3 {
+    margin-top: -300px;
+    margin-inline-start: 435px;
+  }
+
+  img.pattern2 {
+    display: block;
+    width: 147px;
+    height: 14px;
+    margin-left: -50px;
+  }
+
 }
