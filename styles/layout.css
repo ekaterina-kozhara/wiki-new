@@ -245,4 +245,18 @@ p.footer {
     margin-left: -50px;
   }
 
+  .learn-text {
+    display: block;
+    margin: auto;
+  }
+
+  .learn-text h2 {
+  margin-top: 100px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
