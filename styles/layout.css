@@ -33,7 +33,7 @@ nav a:first-of-type {
 }
 
 main {
-  padding: 50px 0 100px 110px;
+  padding: 50px 50px 100px 110px;
 }
 article.example {
   position: relative;
@@ -51,7 +51,7 @@ p {
   line-height: 38px;
 }
 
-.example-text, .responsive-text, .process-text {
+.example-text, .responsive-text, .process-text, .learn-text {
   display: inline-block;
   width: 580px;
 }
@@ -79,7 +79,7 @@ article.responsive h2 {
 img.mockup2 {
   overflow-x: hidden;
   position: absolute;
-  margin-top: 60px;
+  margin-top: 70px;
   width: 464px;
   left: 260px;
 }
@@ -92,4 +92,32 @@ img.pattern2 {
   width: 210px;
   margin-top: 50px;
   margin-left: 385px;
+}
+
+img.mockup3 {
+  overflow-x: hidden;
+  margin-top: 70px;
+  width: 836px;
+  margin-inline-start: -40px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+}
+
+.learn-text {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.buttons {
+  display: block;
+  align-self: center;
+}
+
+a.white {
+  margin-right: 30px;
+  border-radius: 250px;
+  /* height: 40px; */
+  font-size: 15px;
+  background-color: white;
+  border-color: rgba(0,0,0,.2);
+  /* color: rgba(0,0,0,.6); */
 }
