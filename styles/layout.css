@@ -51,13 +51,12 @@ p {
   line-height: 38px;
 }
 
-.example-text {
+.example-text, .responsive-text, .process-text {
   display: inline-block;
   width: 580px;
 }
 
 img.pattern {
-  /* box-sizing: border-box; */
   width: 210px;
   height: 20px;
   margin-top: 50px;
@@ -65,10 +64,32 @@ img.pattern {
 }
 
 img.mockup1 {
+  overflow-x: hidden;
   /* box-sizing: border-box; */
   position: absolute;
   /* margin-right: -20px; */
   /* ЖЕНЯ ПОЧЕМУ МАРДЖИН ТОП РАБОТАЕТ А РАЙГХТ - НЕТ??? */
   margin-top: 60px;
   width: 550px;
+}
+article.responsive h2 {
+  margin-top: 650px;
+}
+
+img.mockup2 {
+  overflow-x: hidden;
+  position: absolute;
+  margin-top: 60px;
+  width: 464px;
+  left: 260px;
+}
+
+.process-text h2 {
+  margin-top: 650px;
+}
+
+img.pattern2 {
+  width: 210px;
+  margin-top: 50px;
+  margin-left: 385px;
 }
