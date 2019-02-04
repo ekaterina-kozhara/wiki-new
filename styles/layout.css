@@ -198,10 +198,6 @@ p.footer {
     margin-left: -40px;
   }
 
-  article.responsive h2 {
-    margin-top: 170px;
-  }
-
   article.responsive {
     display: flex;
   }
@@ -210,7 +206,6 @@ p.footer {
     width: 380px;
     margin-top: 178px;
     left: 61px;
-    /* position: relative; */
     margin-top: 210px;
     height: 478px
   }
@@ -230,6 +225,10 @@ p.footer {
 
   .process-text h2 {
     margin-top: 800px;
+  }
+
+  article.responsive h2 {
+    margin-top: 175px;
   }
 
   img.mockup3 {
@@ -252,6 +251,65 @@ p.footer {
   .learn-text h2 {
   margin-top: 100px;
   }
+}
 
+@media (min-width: 1050px) {
+  h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
 
+  p {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .example-text, .responsive-text, .process-text, .learn-text {
+
+    width: 580px;
+  }
+
+  img.pattern {
+    width: 210px;
+    height: 20px;
+    margin-left: -70px;
+  }
+
+  img.mockup1 {
+    right: -245px;
+    width: 626px;
+    top: 308px;
+  }
+
+  main {
+    padding: 100px 50px 0px 60px;
+  }
+
+  .example-text h2 {
+    margin-top: 45px;
+  }
+
+  article.responsive {
+    margin-top: 95px;
+  }
+
+  article.responsive h2 {
+    margin-top: 400px;
+  }
+
+  .responsive img.pattern {
+    margin-top: 625px;
+    right: -30px;
+  }
+
+  img.mockup3 {
+    margin-top: -405px;
+    margin-inline-start: 625px;
+  }
+
+  img.pattern2 {
+    width: 210px;
+    height: 20px;
+    margin-left: -70px;
+  }
 }
